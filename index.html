@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Font Awesome 5 — icons used in feature cards, pricing lists, and footer -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+    <!-- Google Fonts: Orbitron (headings/labels) + Inter (body text) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <title>Original Trombones</title>
+  </head>
+  <body>
+
+    <!-- =====================================================================
+         HEADER — fixed top bar with logo and navigation
+         ===================================================================== -->
+    <header id="header">
+      <img
+        id="header-img"
+        class="logo"
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+        alt="original trombones logo"
+      >
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#Features">Features</a></li>
+          <li><a class="nav-link" href="#How_It_Works">How It Works</a></li>
+          <li><a class="nav-link" href="#Pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <!-- ==================================================================
+           HERO — headline, subtitle, and email sign-up form
+           ================================================================== -->
+      <section class="hero">
+        <h1 id="main-title">
+          Handcrafted, Home-Made <span class="glow-text">Masterpieces</span>
+        </h1>
+        <p class="hero-sub">
+          Premium trombones built by passionate craftsmen — for musicians who demand excellence.
+        </p>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input id="email" name="email" type="email" placeholder="Enter your email address" required>
+          <input id="submit" type="submit" value="GET STARTED">
+        </form>
+      </section>
+
+      <!-- ==================================================================
+           FEATURES — three key selling points with animated icons
+           ================================================================== -->
+      <section id="Features" class="features-section">
+        <h2 class="section-title">Why Choose Us</h2>
+        <div class="features-grid">
+
+          <!-- Feature 1: Premium Materials -->
+          <div class="feature-card">
+            <div class="icon">
+              <i class="fas fa-fire fa-2x"></i>
+            </div>
+            <h3>Premium Materials</h3>
+            <p>Our trombones use the finest locally sourced brass, polished to perfection. Every instrument is built to last a lifetime.</p>
+          </div>
+
+          <!-- Feature 2: Fast Shipping -->
+          <div class="feature-card">
+            <div class="icon">
+              <i class="fas fa-truck fa-2x"></i>
+            </div>
+            <h3>Fast Shipping</h3>
+            <p>We ship your trombone the moment it's ready. Free returns within 30 days — no questions asked.</p>
+          </div>
+
+          <!-- Feature 3: Quality Assurance -->
+          <div class="feature-card">
+            <div class="icon">
+              <i class="fas fa-shield-alt fa-2x"></i>
+            </div>
+            <h3>Quality Assurance</h3>
+            <p>Every instrument undergoes rigorous inspection — pitch tested, valve checked, and damage-free before it reaches your door.</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           HOW IT WORKS — embedded product demo video
+           ================================================================== -->
+      <section id="How_It_Works" class="video-section">
+        <h2 class="section-title">See It In Action</h2>
+        <div class="video-wrapper">
+          <iframe
+            id="video"
+            src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0"
+            allowfullscreen
+            title="Original Trombones demo"
+          ></iframe>
+        </div>
+      </section>
+
+      <!-- ==================================================================
+           PRICING — three instrument tiers; "featured" card is highlighted
+           ================================================================== -->
+      <section id="Pricing" class="pricing-section">
+        <h2 class="section-title">Choose Your Instrument</h2>
+        <div class="pricing-grid">
+
+          <!-- Tier 1: Tenor Trombone -->
+          <div class="pricing-card">
+            <div class="card-tier">Tenor</div>
+            <div class="card-name">TENOR TROMBONE</div>
+            <div class="card-price">$600</div>
+            <ul class="card-features">
+              <li><i class="fas fa-check"></i> Standard bore (.500")</li>
+              <li><i class="fas fa-check"></i> Yellow brass bell</li>
+              <li><i class="fas fa-check"></i> Nickel silver slide</li>
+              <li><i class="fas fa-check"></i> Hard case included</li>
+            </ul>
+            <button class="select-btn">SELECT</button>
+          </div>
+
+          <!-- Tier 2: Bass Trombone — Most Popular (featured / highlighted) -->
+          <div class="pricing-card featured">
+            <div class="card-badge">Most Popular</div>
+            <div class="card-tier">Bass</div>
+            <div class="card-name">BASS TROMBONE</div>
+            <div class="card-price">$900</div>
+            <ul class="card-features">
+              <li><i class="fas fa-check"></i> Large bore (.562")</li>
+              <li><i class="fas fa-check"></i> Rose brass bell</li>
+              <li><i class="fas fa-check"></i> Dual independent rotors</li>
+              <li><i class="fas fa-check"></i> Deluxe case + cleaning kit</li>
+            </ul>
+            <button class="select-btn">SELECT</button>
+          </div>
+
+          <!-- Tier 3: Valve Trombone — Premium -->
+          <div class="pricing-card">
+            <div class="card-tier">Valve</div>
+            <div class="card-name">VALVE TROMBONE</div>
+            <div class="card-price">$1200</div>
+            <ul class="card-features">
+              <li><i class="fas fa-check"></i> Triple valve system</li>
+              <li><i class="fas fa-check"></i> Sterling silver bell</li>
+              <li><i class="fas fa-check"></i> Hand-lapped pistons</li>
+              <li><i class="fas fa-check"></i> Premium case + accessories</li>
+            </ul>
+            <button class="select-btn">SELECT</button>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- =====================================================================
+         FOOTER — site links and copyright
+         ===================================================================== -->
+    <footer>
+      <div class="footer-links">
+        <!-- data-modal targets the corresponding modal id suffix -->
+        <a href="#" data-modal="privacy">Privacy</a>
+        <a href="#" data-modal="terms">Terms</a>
+        <a href="#" data-modal="contact">Contact</a>
+      </div>
+      <div class="footer-copyright">
+        <span>
+          Copyright &copy; 2016 Original Trombones &mdash; Built by
+          <a href="https://github.com/dmtr-g" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github"></i> dmtr-g
+          </a>
+        </span>
+      </div>
+    </footer>
+
+    <!-- =====================================================================
+         MODAL — Privacy Policy
+         ===================================================================== -->
+    <div id="modal-privacy" class="modal-overlay">
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="privacy-title">
+        <button class="modal-close" aria-label="Close">&times;</button>
+        <h2 id="privacy-title">Privacy Policy</h2>
+        <p><strong>Last updated:</strong> March 2026</p>
+        <p>Original Trombones ("we", "us", or "our") respects your privacy. This policy explains what information we collect, how we use it, and your rights regarding that data.</p>
+
+        <p><strong>Information We Collect</strong></p>
+        <ul>
+          <li>Email address when you sign up for updates or purchase an instrument.</li>
+          <li>Name, shipping address, and payment details for order fulfillment (payment data is processed by our secure payment partner and never stored on our servers).</li>
+          <li>Usage data such as pages visited and links clicked, to help us improve the site.</li>
+        </ul>
+
+        <p><strong>How We Use Your Information</strong></p>
+        <ul>
+          <li>To process and ship your order.</li>
+          <li>To send transactional emails (order confirmations, shipping updates).</li>
+          <li>To send occasional newsletters if you opted in — you can unsubscribe at any time.</li>
+          <li>To improve our website and product offerings based on aggregate usage patterns.</li>
+        </ul>
+
+        <p><strong>Your Rights</strong></p>
+        <p>You may request access to, correction of, or deletion of your personal data at any time by contacting us. We do not sell your data to third parties.</p>
+
+        <p><strong>Cookies</strong></p>
+        <p>We use essential cookies only — no tracking or advertising cookies. You can disable cookies in your browser settings, though some site features may be affected.</p>
+
+        <p>Questions? Reach us via the Contact form.</p>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         MODAL — Terms of Service
+         ===================================================================== -->
+    <div id="modal-terms" class="modal-overlay">
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="terms-title">
+        <button class="modal-close" aria-label="Close">&times;</button>
+        <h2 id="terms-title">Terms of Service</h2>
+        <p><strong>Last updated:</strong> March 2026</p>
+        <p>By placing an order with Original Trombones you agree to the following terms. Please read them carefully before purchasing.</p>
+
+        <p><strong>Orders &amp; Payment</strong></p>
+        <ul>
+          <li>All prices are listed in USD and are subject to change without notice.</li>
+          <li>Orders are confirmed only after successful payment processing.</li>
+          <li>We reserve the right to cancel any order due to stock unavailability or pricing errors.</li>
+        </ul>
+
+        <p><strong>Shipping</strong></p>
+        <ul>
+          <li>Estimated delivery times are provided at checkout and are not guaranteed.</li>
+          <li>Risk of loss transfers to you once the carrier accepts the package.</li>
+          <li>International orders may be subject to import duties — these are the buyer's responsibility.</li>
+        </ul>
+
+        <p><strong>Returns &amp; Refunds</strong></p>
+        <ul>
+          <li>You may return any instrument within 30 days of delivery for a full refund, provided it is in original condition.</li>
+          <li>Custom or engraved instruments are non-refundable.</li>
+          <li>Return shipping costs are covered by us if the item arrived damaged or defective.</li>
+        </ul>
+
+        <p><strong>Limitation of Liability</strong></p>
+        <p>Original Trombones is not liable for any indirect, incidental, or consequential damages arising from the use or inability to use our products beyond the purchase price paid.</p>
+
+        <p>These terms are governed by the laws of the State of New York, USA.</p>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         MODAL — Contact Form
+         ===================================================================== -->
+    <div id="modal-contact" class="modal-overlay">
+      <div class="modal" role="dialog" aria-modal="true" aria-labelledby="contact-title">
+        <button class="modal-close" aria-label="Close">&times;</button>
+        <h2 id="contact-title">Get In Touch</h2>
+        <p>Have a question about our instruments or an existing order? Fill out the form and we'll get back to you within one business day.</p>
+        <form id="contact-form" class="contact-form">
+          <div>
+            <label for="contact-name">Name</label>
+            <input id="contact-name" type="text" placeholder="Your full name" required>
+          </div>
+          <div>
+            <label for="contact-email">Email</label>
+            <input id="contact-email" type="email" placeholder="you@example.com" required>
+          </div>
+          <div>
+            <label for="contact-subject">Subject</label>
+            <input id="contact-subject" type="text" placeholder="Order inquiry, product question...">
+          </div>
+          <div>
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" placeholder="Tell us how we can help..." required></textarea>
+          </div>
+          <button type="submit" class="send-btn">SEND MESSAGE</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         JAVASCRIPT — Modal logic (no inline handlers; all wired via JS)
+         ===================================================================== -->
+    <script>
+      const MODALS = ['privacy', 'terms', 'contact'];
+
+      function openModal(name) {
+        document.getElementById('modal-' + name).classList.add('open');
+        document.body.style.overflow = 'hidden'; // lock background scroll
+      }
+
+      function closeModal(name) {
+        document.getElementById('modal-' + name).classList.remove('open');
+        document.body.style.overflow = '';
+      }
+
+      // Footer links: [data-modal] triggers the matching modal
+      document.querySelectorAll('[data-modal]').forEach(trigger => {
+        trigger.addEventListener('click', e => {
+          e.preventDefault();
+          openModal(trigger.dataset.modal);
+        });
+      });
+
+      // Close (×) buttons: walk up to the overlay to get its id
+      document.querySelectorAll('.modal-close').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const name = btn.closest('.modal-overlay').id.replace('modal-', '');
+          closeModal(name);
+        });
+      });
+
+      // Click on the dark overlay backdrop (not the modal box itself) closes it
+      document.querySelectorAll('.modal-overlay').forEach(overlay => {
+        overlay.addEventListener('click', e => {
+          if (e.target === overlay) {
+            closeModal(overlay.id.replace('modal-', ''));
+          }
+        });
+      });
+
+      // Escape key closes any open modal
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') MODALS.forEach(closeModal);
+      });
+
+      // Contact form: show success state then auto-close
+      document.getElementById('contact-form').addEventListener('submit', e => {
+        e.preventDefault();
+        const btn = e.target.querySelector('.send-btn');
+        btn.textContent = 'SENT!';
+        btn.style.background = '#10b981';
+        btn.disabled = true;
+        setTimeout(() => closeModal('contact'), 1200);
+      });
+    </script>
+
+  </body>
+</html>
