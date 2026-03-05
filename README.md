@@ -92,7 +92,7 @@ Key things practised:
 - `e.target === overlay` to distinguish a click on the backdrop from a click inside the modal box, enabling close-on-backdrop without extra markup
 - CSS design tokens (`--accent`, `--accent-glow`, `--accent-soft`) with multiple opacity variants - lets you build a full glow system from a single base colour
 - `box-shadow` layering - combining outer glow and `inset` glow in one declaration for depth without extra elements
-- `clamp()` for fluid type scaling — `clamp(28px, 5vw, 52px)` gives a responsive font size that needs no media queries
+- `clamp()` for fluid type scaling - `clamp(28px, 5vw, 52px)` gives a responsive font size that needs no media queries
 - `grid-template-columns: repeat(auto-fit, minmax())` for self-organising responsive grids - both the feature and pricing grids use this, collapsing naturally without a breakpoint
 - `youtube-nocookie.com` embed domain for privacy-respecting video embeds that don't set cookies until the user presses play
 
