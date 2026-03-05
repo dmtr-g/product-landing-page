@@ -1,4 +1,4 @@
-# Product Landing Page — Original Trombones
+# Product Landing Page - Original Trombones
 
 A fully featured product landing page for a fictional instrument brand. Dark cyan-glow theme, six CSS animations, a three-tier pricing section, an embedded demo video, and three working modal dialogs - built with HTML, CSS, and a small amount of vanilla JavaScript.
 
